@@ -1,0 +1,18 @@
+<ion-view title="Camera Tab Default Page" id="page2">
+  <ion-content padding="true" class="has-header">
+    <form id="cameraTabDefaultPage-form2" class="list">
+      <label class="item item-input" id="cameraTabDefaultPage-input3">
+        <span class="input-label">Valor 1</span>
+        <input type="number" placeholder="" ng-model="dados.valor1">
+      </label>
+      <label class="item item-input" id="cameraTabDefaultPage-input4">
+        <span class="input-label">Valor 2</span>
+        <input type="number" placeholder="" ng-model="dados.valor2">
+      </label>
+      <div class="spacer" style="width: 300px; height: 14px;"></div>
+      <button id="cameraTabDefaultPage-button2" ng-click="dados.somar()" class="button button-balanced margem">Somar</button>
+      <button id="cameraTabDefaultPage-button3" ng-click="dados.subtrair()" class="button button-assertive espaco">Subtrair</button>
+      <h3 id="cameraTabDefaultPage-heading2" style="color:#000000;text-align:center;">Resultado{{dados.resultado}}</h3>
+    </form>
+  </ion-content>
+</ion-view>
